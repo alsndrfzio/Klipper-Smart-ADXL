@@ -13,8 +13,8 @@ This project packages that workflow into a tiny board and a simple software tool
 
 | Part   | Value                   | Device                                                                 | Footprint           |
 |:-------|:------------------------|:-----------------------------------------------------------------------|:--------------------|
-| /RTS   | ?1.0mm,SMD              | TESTPAD$20$1.0MM$20$CIRCULARTESTPAD$20$1.0MM$20$CIRCULAR_TP_SMD_?1.0MM | TP_SMD_?1.0MM       |
-| 3.3V   | ?1.0mm,SMD              | TESTPAD$20$1.0MM$20$CIRCULARTESTPAD$20$1.0MM$20$CIRCULAR_TP_SMD_?1.0MM | TP_SMD_?1.0MM       |
+| /RTS   | ?1.0mm,SMD              | CIRCULARTESTPAD$20$1.0MM | TP_SMD_?1.0MM       |
+| 3.3V   | ?1.0mm,SMD              | CIRCULARTESTPAD$20$1.0MM | TP_SMD_?1.0MM       |
 | C1     | 0.1u                    | C-EUC0402                                                              | C0402               |
 | C2     | 10u                     | C-EUC0402                                                              | C0402               |
 | C3     | 100u                    | C-EUC0402                                                              | C0402               |
