@@ -9,7 +9,7 @@ Fast FDM printing can result in ringing or ghosting. Measuring the machine’s f
 This project packages that workflow into a tiny board and a simple software toolconfiguration.
 
 ## Instructions
-[Smart_ADXL Tutorial](./Klipper-Smart-ADXL/Tutorial.md)
+[Smart_ADXL Tutorial](Tutorial.md)
 
 
 ## Bill of Materials 
