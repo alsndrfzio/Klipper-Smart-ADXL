@@ -8,6 +8,9 @@ makes resonance testing plug-and-play, just flash the Klipper firmware and inclu
 Fast FDM printing can result in ringing or ghosting. Measuring the machine’s frequency response with an accelerometer enables input shaping algorithms (ZV/ZVD/EI, …) for cleaner corners and higher speeds. 
 This project packages that workflow into a tiny board and a simple software toolconfiguration.
 
+## Instructions
+[Smart_ADXL Tutorial](./Klipper-Smart-ADXL/Tutorial.md)
+
 
 ## Bill of Materials 
 
