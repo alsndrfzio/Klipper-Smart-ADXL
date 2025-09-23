@@ -3,13 +3,13 @@ Smart_ADXL is an open-source project to facilitate resonance testing and applyin
 A compact PCB the size of an Adafruit ADXL345 Breakout integrating a microcontroller (SAMD21G18) and an accelerometer (ADXL345),
 makes resonance testing plug-and-play, just flash the Klipper firmware and include adxl.cfg to your klipper.cfg
 
-# Why
+## Why
 
 Fast FDM printing can result in ringing or ghosting. Measuring the machine’s frequency response with an accelerometer enables input shaping algorithms (ZV/ZVD/EI, …) for cleaner corners and higher speeds. 
 This project packages that workflow into a tiny board and a simple software toolconfiguration.
 
-# BOM
-## Bill of Materials (BOM)
+
+## Bill of Materials 
 
 | Part   | Value                   | Device                                                                 | Footprint           |
 |:-------|:------------------------|:-----------------------------------------------------------------------|:--------------------|
