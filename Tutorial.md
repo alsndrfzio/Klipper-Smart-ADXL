@@ -2,7 +2,7 @@
 
 When you have your PCB, the next step is to flash the klipper firmware in the microcontroller, so that it can be recognised by your mainboard.
 
-As the (klipper doc)[https://www.klipper3d.org/Installation.html?h=flashing+klipper#building-and-flashing-the-micro-controller] says, you have to get yourself a klipper.bin file, it can be downloaded from (here)[Firmware], or you can create a new one
+As the [klipper doc](https://www.klipper3d.org/Installation.html?h=flashing+klipper#building-and-flashing-the-micro-controller) says, you have to get yourself a klipper.bin file, it can be downloaded from [here](Firmware), or you can create a new one
 
 ## How to create a new klipper.bin
 
@@ -54,5 +54,5 @@ Now get into your Raspberry Pi using ssh and find the SAMD21 device using:
 ls -l /dev/serial/by-id/
 ```
 
-You will get an ID, that you'll insert in the (adxl.cfg)[Firmware/adxl.cfg.txt] file.
+You will get an ID, that you'll insert in the [adxl.cfg](Firmware/adxl.cfg.txt) file.
 
