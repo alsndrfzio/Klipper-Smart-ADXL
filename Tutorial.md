@@ -56,3 +56,10 @@ ls -l /dev/serial/by-id/
 
 You will get an ID, that you'll insert in the [adxl.cfg](Firmware/adxl.cfg.txt) file.
 
+Now go to the klipper.cfg, and add the following line:
+
+```
+[include adxl.cfg]
+```
+
+
