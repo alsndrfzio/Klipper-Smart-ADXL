@@ -1,4 +1,4 @@
-#After mounting
+# After mounting
 
 When you have your PCB, the next step is to flash the klipper firmware in the microcontroller, so that it can be recognised by your mainboard.
 
