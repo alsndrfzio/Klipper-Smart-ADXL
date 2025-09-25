@@ -54,5 +54,5 @@ Now get into your Raspberry Pi using ssh and find the SAMD21 device using:
 ls -l /dev/serial/by-id/
 ```
 
-You will get an ID, that you'll insert in the (adxl.cfg)[] file.
+You will get an ID, that you'll insert in the (adxl.cfg)[Firmware/adxl.cfg.txt] file.
 
