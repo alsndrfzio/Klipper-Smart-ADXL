@@ -22,7 +22,7 @@ Clean remaining files from previous build.
 ```
 make clean
 ```
-5. Choose the options for the build.
+Choose the options for the build.
 ```
 make menuconfig
 ```
