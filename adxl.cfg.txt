@@ -1,0 +1,16 @@
+[samd_sercom my_spi]
+sercom: sercom4
+tx_pin: PB10      # SPI MOSI
+rx_pin: PA12      # SPI MISO
+clk_pin: PB11     # SPI SCK
+
+[mcu adxl]
+serial: /dev/serial/by-id/<ID>
+
+[adxl345]
+cs_pin: adxl:<PIN_CS>   
+spi_bus: adxl:my_spi
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points: 147,154,20
