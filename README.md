@@ -5,8 +5,8 @@ makes resonance testing plug-and-play, just flash the Klipper firmware and inclu
 
 ## Why
 
-Fast FDM printing can result in ringing or ghosting. Klipper has some integrated input shaping algorithms, that can [drastically reduce those effects](https://www.youtube.com/watch?v=5fOhi-LL9dU)\
-To apply them you need to measure the resonance frequency of the system, so an accelerometer is needed. As the doc says, it is quite an annoying task to connect the module via SPI using shielded cables, \
+Fast FDM printing can result in ringing or ghosting. Klipper has some integrated input shaping algorithms, that can [drastically reduce those effects.](https://www.youtube.com/watch?v=5fOhi-LL9dU)\
+To apply them you need to measure the resonance frequency of the system, so an accelerometer is needed.\ As seen in the documentation says, it is quite an annoying task to connect the module via SPI using shielded cables,\
 so this project packages that workflow into a tiny board and a simple software configuration. 
 
 ## Instructions
